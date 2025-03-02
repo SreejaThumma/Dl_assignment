@@ -3,7 +3,7 @@
 # Overview
 This project classifies images from the Fashion MNIST dataset using neural networks with different settings.
 # Requirements
-# Install the required libraries:
+Install the required libraries:
 torch
 torchvision
 matplotlib
@@ -18,7 +18,7 @@ Hidden Layers: [128, 64], [128, 64, 32], [64, 32]
 Activations: ReLU and Sigmoid
 Optimizers: Adam, RMSprop, SGD, MGD, NGD
 Weight Initialization: Xavier Initialization
-# To train the model, run:
+To train the model, run:
 python train.py
 # Evaluation
 To evaluate the model, run:
